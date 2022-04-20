@@ -1,0 +1,112 @@
+@relation emprego
+
+@attribute Sexo {Feminino, Masculino}
+@attribute Satisfacao {Alto, Baixo, Medio}
+@attribute Viagem {Rara, Frequente, Nao}
+@attribute Departamento {Vendas, R&D}
+@attribute Qualificacao {Engenharia, Marketing, Medico, Outro, Tecnico}
+@attribute Salario {Alto, Baixo, Medio}
+@attribute Distancia-Trabalho {Distante, Proximo}
+@attribute Demissao {Nao, Sim}
+
+@data
+Feminino,Alto,Rara,Vendas,Engenharia,Medio,Proximo,Sim
+Masculino,Baixo,Frequente,Vendas,Engenharia,Baixo,Proximo,Sim
+Masculino,Medio,Rara,R&D,Outro,Medio,Distante,Nao
+Feminino,Baixo,Frequente,R&D,Engenharia,Medio,Distante,Sim
+Masculino,Medio,Rara,R&D,Medico,Medio,Distante,Nao
+Masculino,Alto,Frequente,R&D,Engenharia,Baixo,Distante,Nao
+Feminino,Alto,Rara,R&D,Medico,Alto,Distante,Nao
+Masculino,Alto,Rara,R&D,Engenharia,Alto,Proximo,Nao
+Masculino,Alto,Frequente,R&D,Engenharia,Alto,Proximo,Nao
+Masculino,Medio,Rara,R&D,Medico,Alto,Proximo,Nao
+Masculino,Baixo,Rara,R&D,Medico,Medio,Proximo,Nao
+Feminino,Medio,Rara,R&D,Engenharia,Baixo,Distante,Nao
+Masculino,Medio,Rara,R&D,Engenharia,Alto,Proximo,Nao
+Masculino,Medio,Rara,R&D,Medico,Alto,Distante,Nao
+Masculino,Baixo,Rara,R&D,Engenharia,Alto,Proximo,Sim
+Feminino,Alto,Rara,R&D,Engenharia,Medio,Distante,Nao
+Masculino,Alto,Rara,R&D,Engenharia,Medio,Proximo,Nao
+Masculino,Alto,Nao,R&D,Medico,Medio,Proximo,Nao
+Feminino,Alto,Rara,Vendas,Engenharia,Medio,Proximo,Nao
+Masculino,Medio,Rara,R&D,Engenharia,Baixo,Proximo,Nao
+Feminino,Baixo,Nao,R&D,Outro,Medio,Proximo,Nao
+Masculino,Alto,Rara,Vendas,Engenharia,Medio,Proximo,Sim
+Feminino,Alto,Rara,R&D,Engenharia,Medio,Proximo,Nao
+Masculino,Alto,Rara,R&D,Engenharia,Baixo,Distante,Nao
+Masculino,Medio,Rara,R&D,Medico,Alto,Proximo,Sim
+Feminino,Medio,Rara,R&D,Outro,Alto,Distante,Nao
+Feminino,Medio,Frequente,R&D,Engenharia,Alto,Distante,Sim
+Masculino,Medio,Rara,Vendas,Marketing,Alto,Distante,Nao
+Feminino,Medio,Rara,R&D,Medico,Medio,Proximo,Nao
+Feminino,Baixo,Rara,Vendas,Marketing,Baixo,Proximo,Nao
+Masculino,Medio,Rara,R&D,Medico,Alto,Proximo,Nao
+Masculino,Alto,Rara,R&D,Outro,Alto,Proximo,Nao
+Masculino,Alto,Rara,R&D,Medico,Alto,Proximo,Nao
+Masculino,Alto,Rara,Vendas,Tecnico ,Medio,Proximo,Sim
+Masculino,Baixo,Rara,R&D,Medico,Medio,Proximo,Sim
+Feminino,Alto,Rara,R&D,Medico,Medio,Proximo,Nao
+Masculino,Baixo,Rara,Vendas,Marketing,Baixo,Proximo,Sim
+Feminino,Medio,Rara,Vendas,Marketing,Medio,Proximo,Nao
+Feminino,Baixo,Rara,R&D,Engenharia,Medio,Proximo,Nao
+Feminino,Alto,Frequente,Vendas,Engenharia,Medio,Proximo,Nao
+Masculino,Medio,Rara,R&D,Outro,Baixo,Proximo,Nao
+Feminino,Medio,Rara,R&D,Engenharia,Alto,Proximo,Nao
+Masculino,Medio,Rara,R&D,Engenharia,Alto,Proximo,Sim
+Masculino,Alto,Frequente,Vendas,Engenharia,Alto,Distante,Nao
+Feminino,Alto,Frequente,R&D,Medico,Alto,Distante,Nao
+Feminino,Alto,Rara,R&D,Tecnico ,Medio,Distante,Sim
+Masculino,Alto,Nao,Vendas,Marketing,Baixo,Proximo,Nao
+Masculino,Baixo,Rara,R&D,Engenharia,Alto,Proximo,Nao
+Masculino,Medio,Frequente,Vendas,Marketing,Alto,Proximo,Nao
+Masculino,Baixo,Rara,R&D,Engenharia,Alto,Proximo,Nao
+Masculino,Alto,Rara,R&D,Engenharia,Medio,Proximo,Sim
+Masculino,Alto,Rara,R&D,Tecnico ,Medio,Proximo,Sim
+Feminino,Baixo,Rara,Vendas,Marketing,Medio,Proximo,Nao
+Masculino,Medio,Nao,R&D,Medico,Alto,Distante,Nao
+Feminino,Medio,Rara,Vendas,Marketing,Alto,Distante,Nao
+Feminino,Alto,Frequente,R&D,Engenharia,Alto,Proximo,Nao
+Masculino,Baixo,Frequente,Vendas,Engenharia,Alto,Distante,Nao
+Feminino,Medio,Rara,R&D,Medico,Baixo,Proximo,Nao
+Masculino,Baixo,Rara,R&D,Engenharia,Medio,Proximo,Nao
+Masculino,Alto,Rara,R&D,Engenharia,Baixo,Proximo,Nao
+Masculino,Medio,Rara,R&D,Medico,Alto,Distante,Nao
+Feminino,Baixo,Frequente,R&D,Engenharia,Alto,Distante,Nao
+Feminino,Alto,Rara,R&D,Medico,Baixo,Distante,Nao
+Feminino,Alto,Rara,Vendas,Engenharia,Medio,Distante,Nao
+Feminino,Alto,Rara,R&D,Tecnico ,Medio,Distante,Nao
+Feminino,Alto,Rara,R&D,Medico,Alto,Distante,Nao
+Masculino,Alto,Frequente,R&D,Engenharia,Baixo,Proximo,Nao
+Masculino,Alto,Rara,R&D,Engenharia,Medio,Distante,Nao
+Masculino,Alto,Frequente,R&D,Medico,Alto,Proximo,Nao
+Masculino,Medio,Rara,R&D,Medico,Alto,Distante,Sim
+Feminino,Baixo,Frequente,Vendas,Engenharia,Alto,Proximo,Nao
+Masculino,Alto,Rara,R&D,Engenharia,Alto,Distante,Nao
+Masculino,Medio,Rara,R&D,Medico,Baixo,Proximo,Nao
+Masculino,Baixo,Rara,R&D,Engenharia,Medio,Distante,Nao
+Feminino,Alto,Rara,R&D,Engenharia,Baixo,Distante,Nao
+Feminino,Alto,Rara,R&D,Engenharia,Alto,Distante,Nao
+Masculino,Alto,Rara,Vendas,Marketing,Alto,Distante,Nao
+Masculino,Medio,Rara,R&D,Outro,Baixo,Distante,Nao
+Masculino,Baixo,Rara,R&D,Medico,Medio,Proximo,Nao
+Masculino,Alto,Rara,Vendas,Medico,Medio,Proximo,Nao
+Masculino,Medio,Rara,R&D,Engenharia,Alto,Proximo,Nao
+Masculino,Alto,Rara,R&D,Medico,Baixo,Proximo,Nao
+Masculino,Baixo,Rara,Vendas,Engenharia,Alto,Proximo,Nao
+Feminino,Alto,Nao,R&D,Medico,Alto,Proximo,Nao
+Masculino,Alto,Rara,R&D,Medico,Medio,Proximo,Nao
+Masculino,Medio,Rara,R&D,Engenharia,Baixo,Proximo,Nao
+Masculino,Baixo,Rara,Vendas,Tecnico ,Medio,Proximo,Nao
+Masculino,Medio,Rara,R&D,Engenharia,Medio,Proximo,Nao
+Masculino,Medio,Rara,R&D,Engenharia,Medio,Proximo,Nao
+Masculino,Medio,Rara,Vendas,Medico,Baixo,Proximo,Sim
+Masculino,Medio,Frequente,R&D,Engenharia,Medio,Proximo,Nao
+Masculino,Alto,Rara,Vendas,Marketing,Alto,Proximo,Nao
+Feminino,Alto,Rara,Vendas,Medico,Alto,Proximo,Nao
+Masculino,Alto,Frequente,R&D,Medico,Alto,Proximo,Nao
+Masculino,Alto,Rara,Vendas,Medico,Alto,Proximo,Nao
+Feminino,Alto,Rara,R&D,Tecnico ,Medio,Proximo,Nao
+Feminino,Alto,Rara,Vendas,Outro,Baixo,Proximo,Sim
+Masculino,Alto,Nao,Vendas,Medico,Medio,Proximo,Nao
+Masculino,Medio,Rara,Vendas,Medico,Alto,Proximo,Nao
+Masculino,Baixo,Nao,R&D,Outro,Baixo,Distante,Sim
